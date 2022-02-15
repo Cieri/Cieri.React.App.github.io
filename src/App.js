@@ -159,7 +159,7 @@ function App() {
                 <thead>
                   <tr>
                     <td colspan="2">
-                      <h3>Your Results</h3>
+                      <h2>Your Results</h2>
                     </td>
                   </tr>
                 </thead>
@@ -167,7 +167,7 @@ function App() {
                   <tr>
                     <td
                       style={
-                        resto ? { color: "#556b2f" } : { color: "#800000" }
+                        resto ? { color: "#0cc433" } : { color: "#d40d0d" }
                       }
                     >
                       {resto
@@ -176,7 +176,7 @@ function App() {
                     </td>
                     <td
                       style={
-                        shift ? { color: "#556b2f" } : { color: "#800000" }
+                        shift ? { color: "#0cc433" } : { color: "#d40d0d" }
                       }
                     >
                       {shift
@@ -186,7 +186,7 @@ function App() {
                   </tr>
                   <tr>
                     <td
-                      style={wild ? { color: "#556b2f" } : { color: "#800000" }}
+                      style={wild ? { color: "#0cc433" } : { color: "#d40d0d" }}
                     >
                       {wild
                         ? "You can be a Wild Mage."
@@ -194,7 +194,7 @@ function App() {
                     </td>
                     <td
                       style={
-                        surge ? { color: "#556b2f" } : { color: "#800000" }
+                        surge ? { color: "#0cc433" } : { color: "#d40d0d" }
                       }
                     >
                       {surge
@@ -205,7 +205,7 @@ function App() {
                   <tr>
                     <td
                       style={
-                        glyph ? { color: "#556b2f" } : { color: "#800000" }
+                        glyph ? { color: "#0cc433" } : { color: "#d40d0d" }
                       }
                     >
                       {glyph
@@ -213,7 +213,7 @@ function App() {
                         : "You cannot be a Glyph Mage."}
                     </td>
                     <td
-                      style={hex ? { color: "#556b2f" } : { color: "#800000" }}
+                      style={hex ? { color: "#0cc433" } : { color: "#d40d0d" }}
                     >
                       {hex
                         ? "You can be a Hex Mage."
@@ -222,7 +222,7 @@ function App() {
                   </tr>
                   <tr>
                     <td
-                      style={pyro ? { color: "#556b2f" } : { color: "#800000" }}
+                      style={pyro ? { color: "#0cc433" } : { color: "#d40d0d" }}
                     >
                       {pyro
                         ? "You can be a Pyro Mage."
@@ -230,7 +230,7 @@ function App() {
                     </td>
 
                     <td
-                      style={war ? { color: "#556b2f" } : { color: "#800000" }}
+                      style={war ? { color: "#0cc433" } : { color: "#d40d0d" }}
                     >
                       {war
                         ? "You can be a War Mage."
@@ -243,7 +243,7 @@ function App() {
                     <td colspan="2">
                       <p
                         style={
-                          dead ? { color: "#556b2f" } : { color: "#800000" }
+                          dead ? { color: "#0cc433" } : { color: "#d40d0d" }
                         }
                       >
                         {dead

@@ -43,10 +43,11 @@ p {
 }
 .main {
   table-layout: fixed;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   background-color: #addcdf;
+  padding: 10px;
 }
 
 .first {
@@ -93,7 +94,7 @@ tfoot {
 }
 
 .top {
-  width: 75%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }

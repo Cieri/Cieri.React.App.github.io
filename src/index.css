@@ -105,7 +105,7 @@ tfoot {
 
 .results {
   table-layout: fixed;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
@@ -120,4 +120,42 @@ button {
 
 .buttongroup {
   text-align: center;
+}
+
+@media (max-width: 1100px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+
+  td {
+    display: block;
+  }
+
+  table {
+    border-spacing: 0;
+    width: 100%;
+  }
+  .top,
+  .topfirst,
+  .innertable {
+    width: 100%;
+    text-align: center;
+  }
+
+  .innertable td {
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .innertable th {
+    width: 50%;
+  }
+
+  .first {
+    width: 90%;
+  }
+
+  .results {
+    margin-top: 20px;
+  }
 }
